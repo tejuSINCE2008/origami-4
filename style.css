@@ -1,0 +1,33 @@
+.grid img{
+    border:2px;
+    border-radius: 50px;  
+}
+.origami{
+    border-radius: 20px;
+    background-color:#ff00ff;
+    margin:50px
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.menu{
+    background-color: #dc143c;
+}
+.header{
+    background-color: #ffc0cb;
+}
+
+p{
+    text-align: center;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:purple;
+}
+.origami:hover{
+    transform: scale(1.2)
+}
